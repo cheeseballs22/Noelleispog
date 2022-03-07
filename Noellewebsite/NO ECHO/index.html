@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <!--- 
+    THIS THEME PARK WEBSITE WILL HAVE THE LOGO ALWAYS NAVIGATE BACK TO THE MAIN PAGE, AND IT WILL HAVE HANDY LINKS AT THE TOP AND BOTTOM OF THE WEBSITE FOR EASE OF ACCESS.
+    IF YOU'RE WONDERING WHY I'M TYPING IN ALL CAPS, IS BECAUSE I CANNOT SEE THAT WELL AND IT MAKES ME FEEL IMPORTANT.
+    --->
+    <div class="fpgrid">
+    <head>
+        <link rel="stylesheet" href="styles/stylesheets.css">
+        <link rel="stylesheet" href="styles/carousel.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <title>Cyberpark 2077</title>
+        <meta name="description" content="The official webpage for NCPD News from Cyberpunk 2077">
+        <meta name="author" content="Arnie Deb">
+        <meta name="refresh" content="600">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Cyberpunk, News, Inforation, Key People">
+    </head>
+    
+    <body>
+        <!--- 
+    THIS HEADER HAS BEEN INCLUDED ON ALL OF THE OTHER PAGES, THIS KEEPS THE LAYOUT OF THE WEBSITE EASY AND NAVIGATEABLE
+    --->
+        <header>
+            <div class="mainHeader">
+            <div class="main-logo">
+                <a href="index.html">
+                    <img alt="Cyberpark 2077 Logo" src="pictures/cyberpark_2077.jpg" width="200" height="98"/>
+                </a>
+            </div>
+            <div id="fpTopToolBar">
+                <!--- 
+    THESE LINKS DO NOT WORK, AS THEY ARE NOT LINKED TO ANYTHING NOR HAVE AN HREF. I WAS TEMPTED TO PLACE THE RICKROLL URL IN LIEU. NEVER GONNA GIVE YOU UP ...
+    --->
+                <nav>
+                    <a href="rides.html">
+                        Key People---      
+                    </a>
+                    <a href="psychos.html">
+                        Cyberpsychos---
+                    </a>
+                    <a href="map.html">
+                        Crime Map---
+                    </a>
+                    <a href="news_article.html">
+                        Top News Story
+                    </a>
+                </nav>
+            </div>
+            <!--- 
+            I DO NOT KNOW HOW TO CODE A SEARCH BAR. HAVE A FORM WHICH DOES NOTHING INSTEAD.
+            --->
+            <div id="fpSearchBar">
+                <input type="text" placeholder="Search The Website...">
+            </div>
+            </div>
+        </header>
+    <!--- 
+    THIS SECTION SHOULD BE A CAROSEL IN THE FUTURE, BUT FOR NOW IT IS A STATIC IMAGE RIPPED FROM CYBERPUNK 2077 CONCEPT ART. 
+    --->
+        <div id="fpWelcomeText">
+                <h1>NIGHT CITY NEWS NETWORK</h1>
+            </div>
+
+        <div id="fpBannerCarosel">
+            <section class="container">
+                <div class="slider">
+                    <div class="slide">
+                        <img id="img-carousel" src="pictures/concept-art.jpg">
+                    </div>
+
+                    <div class="slide">
+                        <img id="img-carousel" src="pictures/noelle.png">
+                    </div>
+                    
+                    <div class="slide">
+                        <img id="img-carousel" src="pictures/noelle_library.png">
+                    </div>
+
+
+                </div>
+                <div class="carousel-nav">
+                    <span class="prev-arrow">
+                        <i class="fa fa-chevron-left"></i>
+                    </span>
+                    <ul class="slider-dots"></ul>
+                    <span class="next-arrow">
+                        <i class="fa fa-chevron-right"></i>
+                    </span>
+                </div>
+            </section>
+        </div>
+        <!--- 
+        HERE ARE THE LINKS TO THE ONLY OTHER TWO PAGES. THERE REALLY ISN'T MUCH TO SEE 
+        --->
+        <nav class="fpMapAndInfoNav">
+            <div id="mainToMap">
+                <a href="map.html">
+                    <img alt="Key People and Information" src="pictures/noelle_surprised.jpg"/>
+                </a>
+                <h2 id = "mainToMapText"> NOELLE IS 15 AND SO CUTE WOW</h2>
+            </div>
+            <div id="mainToRides">
+                <a href="rides.html">
+                    <img alt="CyberPsycho Profiles"
+                    src="pictures/noelle_surprised.jpg"/>
+                </a>
+                <h2 id = "mainToMapText"> WOW I LOVE THE WAY NOELLE IS 15 THAT IS KAWAII AND CUTE</h2>
+            </div>
+        </nav>
+        <footer id="fpFooter">
+            <div class="informationFooter">
+                <!--- 
+                DON'T BOTHER SEARCHING UP THE ADDRESS AND PHONE NUMBER, IT'S A LITTLE CAESAR'S IN CANADA.I DON'T EVEN KNOW IF THEY HAVE LITTLE CAESAR'S IN THE UK
+                --->
+                <address>
+                    100 West 1st Street, Los Angeles, California    
+                </address>
+                <phone>
+                    1-800-NO-FUTURE
+                </phone>
+                    <!--- 
+                    MANDATORY FOOTER LINK DUMP, AS EXPECTED THESE LINKS DO NOT WORK. NO I WILL NOT CODE THE PAGES TO THEM. I DON'T HAVE THAT KIND OF ENTHUSIASM
+                    --->
+                    <div class="footerLinkBarrage">
+                    <a>
+                        FAQ
+                    </a>
+                    <a>
+                        Contact Us
+                    </a>
+                    <a>
+                        Data Collection     
+                    </a>
+                    <a>
+                        Source Ethics
+                    </a>
+                    <a>
+                        Funding Disclosures
+                    </a>
+                    
+                    </div>
+            </div>
+        </footer>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/carousel.js"></script>
+    </div>
+</html>
